@@ -1628,3 +1628,11 @@ section.slide-1 h1 {line-height: 1.2em;}
 .flag-icon-zwe.flag-icon-squared {
   background-image: url(/img/flags/1x1/zwe.svg);
 }
+
+.bottom-badge {
+  position: absolute;
+  bottom: 1em;
+  left: 50%;
+  z-index: 1;
+}
+
