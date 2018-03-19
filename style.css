@@ -2,8 +2,8 @@
   body {   background-color: white;   background-image: url(img/AEQ1fM1.jpg);    font-family: "Open Sans", sans-serif; font-size: 18px;   margin: 0;   color: white; text-shadow: -2px 2px 4px #000; }
   .con em {   font-weight: 900;   font-size: larger; }
   .con h1 {   font-family: "Droid Sans", serif;   font-size: .75em; }
-  .con h2 {   font-family: "Droid Sans", serif;   font-size: .50em; }
-  .con h3 {   font-family: "Droid Sans", serif;   font-size: .25em; }
+  .con h2, .con h3 {   font-family: "Droid Sans", serif; padding-bottom: 1em;}
+  .con h4 {   font-family: "Droid Sans", serif;   font-size: .69em; }
   .con .author { font-family: "Droid Sans", serif;  font-size: .45em;   font-weight: bold; margin-top: -0.5em; display: block; }
   .con .slide-top {   top: 0 !important; }
   .con h2 {   font-size: 2em;   vertical-align: top;   margin-bottom: 1.5em}
@@ -14,11 +14,11 @@
     align-items: center;
 }
 
-  .con .wrap p {   line-height: 1.5em;   text-align: left; }
-  .con .wrap a[href] {color: rgba(107, 253, 255, 0.62);}
+  .con p {   line-height: 1.5em;   text-align: left; }
+  .con a[href] {color: rgba(107, 253, 255, 0.62);}
   .con .wrap img {   text-align: right;   margin-right: 2em; }
 
-  .con .wrap ul {   list-style-type: none;}
+  .con ul {   list-style-type: none; text-align:left !important;}
 .con .wrap  table  thead {
   font-size: larger;
   text-transform: uppercase;
